@@ -1,0 +1,15 @@
+{
+  "name": "World Time in New Tab",
+  "description": "Check for world time in a new Google Chrome tab",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "src/main.html"
+  },
+  "icons": {
+    "192": "icons/icon-192x192.png"
+  }
+}

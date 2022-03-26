@@ -1,0 +1,22 @@
+.color_picker_container {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.color_picker_label {
+    color: var(--font-color);
+}
+
+.color_picker_input {
+    background-color: var(--font-color);
+    border: 1px solid var(--font-color);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.color_picker_input:hover {
+    cursor: pointer;
+}

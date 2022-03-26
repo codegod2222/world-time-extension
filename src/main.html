@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>World Time</title>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link rel="stylesheet" type="text/css" href="new_timer_form/new_timer_form.css"/>
+    <link rel="stylesheet" type="text/css" href="palette/palette.css"/>
+</head>
+<body class="body">
+<header></header>
+<div class="main_container">
+    <div class="timers_container">
+    </div>
+    <button class="timer add_timer_button">Add</button>
+    <form class="new_timer_form new_timer_form--hidden">
+        <label for="locationSelect" class="new_location_selector_label">Select new location</label>
+        <select id="locationSelect" name="locationSelect" class="new_location_selector">
+        </select>
+        <button class="submit_new_timer_button">Submit</button>
+    </form>
+    <div class="color_picker_container">
+        <label for="backgroundColorPicker" class="color_picker_label">Background</label>
+        <input type="color" value="#9D6A62" id="backgroundColorPicker" class="color_picker_input">
+    </div>
+</div>
+<footer>
+
+</footer>
+</body>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="timer.js"></script>
+<script type="text/javascript" src="new_timer_form/TimerCreator.js"></script>
+<script type="text/javascript" src="local_storage_timers.js"></script>
+<script type="text/javascript" src="palette/palette.js"></script>
+</html>

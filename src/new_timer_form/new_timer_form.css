@@ -1,0 +1,59 @@
+:root {
+    --form-font-color: yellowgreen;
+}
+
+.new_timer_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new_timer_form--hidden {
+    display: none;
+}
+
+.new_location_selector {
+    transition: background-color 250ms ease-in-out;
+
+    background: transparent;
+    border: 2px solid darkslategrey;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: var(--font-color);
+}
+
+.new_location_selector:hover{
+    transition: background-color 250ms ease-in-out;
+
+    cursor: pointer;
+
+    background-color: darkgrey;
+}
+
+.submit_new_timer_button {
+    transition: color 250ms ease-in-out;
+
+    display: block;
+    max-width: min-content;
+    border: none;
+    background: transparent;
+    color: var(--form-font-color);
+    font-weight: 600;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.submit_new_timer_button:hover {
+    transition: color 250ms ease-in-out;
+    cursor: pointer;
+    color: var(--hover-color);
+}
+
+.new_location_selector_label {
+    width: 100%;
+    color: var(--form-font-color);
+    margin-bottom: 5px;
+    font-size: var(--font-size);
+}
